@@ -21,7 +21,7 @@ This is an online course of topic mobile robots of [University of Technology Nur
 - Localization based on Lidar and wheel odometry with the help of [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filters%2C%20or%20sequential%20Monte,processing%20and%20Bayesian%20statistical%20inference.)
 - [Fast_SLAM](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf).
 
-All these knowledge are simulated and verified on a robot simulation platform [Webots](https://cyberbotics.com/), which is of great help to understand the various formulas and concepts in the Simultaneous Localization And Mapping (SLAM) of mobile robots. Thanks to Prof.Wolfram Burgard and other teaching assistants, the reference solutions of exercises and slides are provided by them.
+All these knowledge are simulated and verified on a robot simulation platform [Webots](https://cyberbotics.com/), which is of great help to understand the various formulas and concepts in the Simultaneous Localization And Mapping (SLAM) of mobile robots. Thanks to Prof. Dr. Wolfram Burgard and other teaching assistants, the reference solutions of exercises and slides are provided by them.
 
 
 ## 2. Webots Simulator
@@ -46,11 +46,9 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 - Simulation/video
   
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task1.mp4" type="video/mp4">
-  <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZ-Wb_5goZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
 
 
@@ -64,7 +62,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 <br>
 
-- Markov Localization
+- [Markov Localization](https://en.wikipedia.org/wiki/Monte_Carlo_localization)
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul2_Bayes_Filter/Lecture/Markov-localization.png)
 
 <br>
@@ -84,15 +82,19 @@ To Do List:
 
 <br>
 
-- Motion Model
+- Motion Model Demo
+  
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/odometry%20motion%20model.png)
+
 > wheel-odometry based motion model
 
 
 <br>
 
-- Sensor Model
+- Sensor Model Demo
+  
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/sensor%20model.png)
+
 > beam-based Lidar sensor model
 
 <br>
@@ -111,7 +113,7 @@ trivial to represent such a distribution by a parametric function.
 <br>
 
 
-- Particle Filter
+- Particle Filter Demo
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul4_Particle_Filter/res/particle_filter.png)
 
 
