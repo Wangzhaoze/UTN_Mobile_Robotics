@@ -14,9 +14,10 @@
 
 > For more details please follow this link: [Page of Course](https://www.utn.de/en/2022/09/13/mobile-robotics/)
 
-This is an online course of topic mobile robots of University of Technology Nuremberg which strated in November 2022. The course mainly introduces:
-- Kinematics model of mobile robots and Lidar
-- Bayesian probability model
+This is an online course of topic mobile robots of [University of Technology Nuremberg](https://www.utn.de/en/) which strated in November 2022. The course mainly introduces:
+- Kinematics model of mobile robots
+- Lidar sensor
+- Bayesian Probability Model
 - Localization based on Lidar and wheel odometry with the help of [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filters%2C%20or%20sequential%20Monte,processing%20and%20Bayesian%20statistical%20inference.)
 - [Fast_SLAM](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf).
 
@@ -46,7 +47,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 - Simulation/video
   
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="https://www.youtube.com/watch?v=33KYJCG2_0c" type="video/mp4">
+  <source id="mp4" src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task1.mp4" type="video/mp4">
   <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
 
@@ -64,7 +65,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 <br>
 
 - Markov Localization
-![](https://www.researchgate.net/profile/Sebastian-Hoeffner-2/publication/272490415/figure/fig1/AS:645701503553546@1530958643508/Markov-localization-A-one-dimensional-corridor-with-indistinguishable-doors-From.png)
+![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul2_Bayes_Filter/Lecture/Markov-localization.png)
 
 <br>
 
@@ -85,11 +86,14 @@ To Do List:
 
 - Motion Model
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/odometry%20motion%20model.png)
+> wheel-odometry based motion model
+
 
 <br>
 
 - Sensor Model
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/sensor%20model.png)
+> beam-based Lidar sensor model
 
 <br>
 
@@ -101,7 +105,6 @@ scenario of localizing a robot using identical landmarks: In case the robot obse
 trivial to represent such a distribution by a parametric function.
 
 <br>
-
 
 - Non-parametric Bayes filters can approximate arbitrary belief distributions. In this module, you will learn two non-parametric filters: the discrete Bayes filter and the particle filter, whereby the focus will be on the particle filter. 
 
