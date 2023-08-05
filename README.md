@@ -3,8 +3,6 @@
 
 ![](https://img.shields.io/github/stars/Wangzhaoze/UTN_Mobile_Robotics.svg) 
 ![](https://img.shields.io/github/forks/Wangzhaoze/UTN_Mobile_Robotics.svg) 
-# ![](https://img.shields.io/github/tag/Wangzhaoze/UTN_Mobile_Robotics.svg)
-# ![](https://img.shields.io/github/release/Wangzhaoze/UTN_Mobile_Robotics.svg)
 ![](https://img.shields.io/github/issues/Wangzhaoze/UTN_Mobile_Robotics.svg)
 
 ## 1. Course Introduction
