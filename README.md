@@ -41,7 +41,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 - Differential Drive of Robots
   
 - <div style="text-align: center;">
-  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/c2f415d056f7499e5f53ee6dade7150588d3c9d4/Modul1_Locomotion_and_Lidar_Sensors/Lecture/differential_drive.png" alt="Image" width="300">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/c2f415d056f7499e5f53ee6dade7150588d3c9d4/Modul1_Locomotion_and_Lidar_Sensors/Lecture/differential_drive.png" alt="Image" width="800">
 </div>
 
 
