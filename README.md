@@ -32,7 +32,13 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 #### 3.1 Locomotion and Lidar
 
-- In this assignment, you will use the Webots simulator to control a Pioneer 3-DX robot. First, you are asked to implement a differential drive controller using the formulas you learned in this module. Second, you have to use the robot’s LiDAR to find the closest surface and navigate to it. Finally, you will devise and implement a wall-following algorithm. Before starting with the actual assignment, you should read and follow the instructions in the Preliminaries section in order to familiarize yourself with the simulator. 
+- In this assignment, you will use the Webots simulator to control a Pioneer 3-DX robot. First, you are asked to implement a differential drive controller using the formulas you learned in this module. Second, you have to use the robot’s LiDAR to find the closest surface and navigate to it. Finally, you will devise and implement a wall-following algorithm. Before starting with the actual assignment, you should read and follow the instructions in the Preliminaries section in order to familiarize yourself with the simulator.
+
+
+<video controls>
+  <source src="./Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 #### Bayes Filter
 
