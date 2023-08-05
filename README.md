@@ -40,7 +40,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 - Differential Drive of Robots
   
-- <div style="text-align: center;">
+<div style="text-align: center;">
   <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/c2f415d056f7499e5f53ee6dade7150588d3c9d4/Modul1_Locomotion_and_Lidar_Sensors/Lecture/differential_drive.png" alt="Image" width="800">
 </div>
 
@@ -49,8 +49,10 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 
 - Follow Wall Demo
-  
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task2.gif)
+
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task2.gif" alt="Image" width="800">
+</div>
 
 <br>
 
@@ -67,7 +69,10 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 <br>
 
 - [Markov Localization](https://en.wikipedia.org/wiki/Monte_Carlo_localization)
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul2_Bayes_Filter/Lecture/Markov-localization.png)
+
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/0246666ab89f3ee85482f2182de49df9b1aa1d43/Modul2_Bayes_Filter/Lecture/Markov-localization.png" alt="Image" width="800">
+</div>
 
 <br>
 
@@ -89,14 +94,19 @@ To Do List:
 
 - Wheel-odometry based Motion Model Demo
   
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/odometry%20motion%20model.png)
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/odometry%20motion%20model.png" alt="Image" width="800">
+</div>
+
 
 
 <br>
 
 
 - Beam-based Lidar Sensor Model Demo
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/sensor%20model.png)
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/sensor%20model.png" alt="Image" width="800">
+</div>
 
 
 <br>
@@ -116,7 +126,9 @@ trivial to represent such a distribution by a parametric function.
 
 
 - Particle Filter Demo
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul4_Particle_Filter/res/particle_filter.gif)
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul4_Particle_Filter/res/particle_filter.gif" alt="Image" width="800">
+</div>
 
 <br>
 
@@ -138,7 +150,9 @@ learn the FastSLAM algorithm, which is a SLAM solution based on the particle fil
 <br>
 
 - Fast-SLAM Demo
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul5_SLAM/res/FAST_SLAM.gif)
+<div style="text-align: center;">
+  <img src="https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul5_SLAM/res/FAST_SLAM.gif" alt="Image" width="800">
+</div>
 
 <br>
 
