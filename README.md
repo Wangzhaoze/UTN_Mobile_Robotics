@@ -31,7 +31,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 ## 3. Content
 
-#### 3.1  Locomotion and Lidar
+### > 3.1  Locomotion and Lidar
 
 
 - In this assignment, you will use the Webots simulator to control a Pioneer 3-DX robot. First, you are asked to implement a differential drive controller using the formulas you learned in this module. Second, you have to use the robot’s LiDAR to find the closest surface and navigate to it. Finally, you will devise and implement a wall-following algorithm. Before starting with the actual assignment, you should read and follow the instructions in the Preliminaries section in order to familiarize yourself with the simulator.
@@ -44,15 +44,15 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 <br>
 
 
-- Simulation/video
+- Follow Wall Demo
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HZ-Wb_5goZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul1_Locomotion_and_Lidar_Sensors/res/ex1_task2.gif)
 
 <br>
 
 
 
-#### 3.2  Bayes Filter
+### 3.2  Bayes Filter
 
 - Consider a household robot equipped with a camera. It operates in an apartment with two rooms: a living room and a bedroom. The robot runs an artificial neural network that can recognize a living room in the camera image. Further, the robot can perform a switch-room action, i.e., it moves to the living room if it is in the bedroom, and vice versa. Neither the recognition nor the motion controller is perfect. 
     
@@ -69,7 +69,7 @@ If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), 
 
 
 
-#### 3.3  Motion & Sensor Model
+### 3.3  Motion & Sensor Model
 
 The last module introduced the recursive Bayes filter. To implement it in practice, one requires the transition model p( xt | xt-1, ut） and the measurement or sensor model P (z | x). In the previous assignment, the necessary values of these functions were provided. In real-world applications, however, the transition and sensor model have a more complex form and need to fit the robot hardware at hand. In this module, you will learn a transition model that approximates the uncertainty in the motion of a wheeled robot, the odometry-based motion model. You will further learn the beam-based sensor model for range sensors.
 
@@ -80,27 +80,25 @@ To Do List:
 -	implement an algorithm that samples from the odometry-based motion model
 -	understand and apply a sensor model to estimate the likelihood of a range measurement
 
+
 <br>
 
-- Motion Model Demo
+- Wheel-odometry based Motion Model Demo
   
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/odometry%20motion%20model.png)
 
-> wheel-odometry based motion model
-
 
 <br>
 
-- Sensor Model Demo
-  
+
+- Beam-based Lidar Sensor Model Demo
 ![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul3_Motion_and_Sensor_Model/res/sensor%20model.png)
 
-> beam-based Lidar sensor model
 
 <br>
 
 
-#### 3.4  Particle Filter
+### 3.4  Particle Filter
 - The recursive Bayes filter can be evaluated analytically under certain circumstances. For example, if the state space is discrete with a relatively low number of states or the motion model, the sensor model, and the initial 
 belief all follow a Gaussian distribution. However, in the case of a continuous state space and a belief that follows a general probability distribution, we have to rely on some approximation of the belief. Consider the 
 scenario of localizing a robot using identical landmarks: In case the robot observes only a single landmark, the resulting belief of the pose would be a multi-modal distribution, with one peak near each landmark. It is not 
@@ -114,11 +112,14 @@ trivial to represent such a distribution by a parametric function.
 
 
 - Particle Filter Demo
-![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/9267130cca50bb51588420b8b1cf7c3ead06183d/Modul4_Particle_Filter/res/particle_filter.png)
+![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul4_Particle_Filter/res/particle_filter.gif)
+
+<br>
 
 
 
-#### 3.5  Fast_SLAM
+
+### 3.5  Fast_SLAM
 
 - In the previous module, you learned how to localize a robot using a particle filter. There, the algorithm was provided with a map that was constructed from the ground truth data obtained from 
 the simulator. In practice, a map can be recovered from sensor data if the robot trajectory is known, a.k.a. mapping with known poses. The problem of Simultaneous Localisation and 
@@ -129,6 +130,11 @@ localization requires a map and robot poses are needed for map creation.
 
 - In this module, you will first obtain an introduction to the SLAM problem. Next, you will learn about the Kalman Filter, a widely used state estimation method for Gaussian processes. Finally, you will 
 learn the FastSLAM algorithm, which is a SLAM solution based on the particle filter and Kalman Filter approaches. 
+
+<br>
+
+- Fast-SLAM Demo
+![](https://github.com/Wangzhaoze/UTN_Mobile_Robotics/blob/145c9fafe9aa3b84b853c2cfeefe688c42ef48b8/Modul5_SLAM/res/FAST_SLAM.gif)
 
 <br>
 
