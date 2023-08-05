@@ -11,7 +11,7 @@
 ## Course Introduction
 ![](https://www.utn.de/files/2022/08/Mobile-robotics-1-c-Unsplash-860x576.jpg)
 
-[link]([[http://localhost/](https://www.utn.de/en/2022/09/13/mobile-robotics/)])
+[Page of Course](https://www.utn.de/en/2022/09/13/mobile-robotics/)
 
 This is an online course of topic mobile robots of University of Technology Nuremberg which strated in November. The course mainly introduces:
 - Kinematics model of mobile robots and Lidar
