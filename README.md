@@ -1,12 +1,11 @@
 # UTN_Mobile_Robotics.md
 
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) 
-![](https://img.shields.io/github/forks/pandao/editor.md.svg) 
-![](https://img.shields.io/github/tag/pandao/editor.md.svg)
-![](https://img.shields.io/github/release/pandao/editor.md.svg)
-![](https://img.shields.io/github/issues/pandao/editor.md.svg)
-![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://img.shields.io/github/stars/Wangzhaoze/UTN_Mobile_Robotics.svg) 
+![](https://img.shields.io/github/forks/Wangzhaoze/UTN_Mobile_Robotics.svg) 
+![](https://img.shields.io/github/tag/Wangzhaoze/UTN_Mobile_Robotics.svg)
+![](https://img.shields.io/github/release/Wangzhaoze/UTN_Mobile_Robotics.svg)
+![](https://img.shields.io/github/issues/Wangzhaoze/UTN_Mobile_Robotics.svg)
 
 ## 1. Course Introduction
 
