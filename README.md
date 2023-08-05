@@ -5,6 +5,8 @@
 ![](https://img.shields.io/github/forks/Wangzhaoze/UTN_Mobile_Robotics.svg) 
 ![](https://img.shields.io/github/issues/Wangzhaoze/UTN_Mobile_Robotics.svg)
 
+<br>
+
 ## 1. Course Introduction
 
 ![](https://www.utn.de/files/2022/08/Mobile-robotics-1-c-Unsplash-860x576.jpg)
@@ -20,11 +22,14 @@ This is an online course of topic mobile robots of [University of Technology Nur
 
 All these knowledge are simulated and verified on a robot simulation platform [Webots](https://cyberbotics.com/), which is of great help to understand the various formulas and concepts in the Simultaneous Localization And Mapping (SLAM) of mobile robots. Thanks to Prof. Dr. Wolfram Burgard and other teaching assistants, the reference solutions of exercises and slides are provided by them.
 
+<br>
+<br>
 
 ## 2. Webots Simulator
 If you have not yet installed the [Webots Simulator](https://cyberbotics.com/), please do so. We recommend the latest version, 2022b, however, you can also use version 2022a if that works better on your system. Then, follow the [official tutorial](https://cyberbotics.com/doc/guide/tutorials) to learn the basics of the simulator. 
 
-
+<br>
+<br>
 
 ## 3. Content
 
