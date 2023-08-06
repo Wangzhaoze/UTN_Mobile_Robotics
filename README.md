@@ -13,7 +13,7 @@
 
 > For more details please follow this link: [Page of Course](https://www.utn.de/en/2022/09/13/mobile-robotics/)
 
-This is an online course of topic mobile robots of [University of Technology Nuremberg](https://www.utn.de/en/) which strated in November 2022. The course mainly introduces:
+This is an online course of topic mobile robots of [University of Technology Nuremberg](https://www.utn.de/en/) which started in November 2022. The course mainly introduces:
 - Kinematics model of mobile robots
 - Lidar sensor
 - Bayesian Probability Model
