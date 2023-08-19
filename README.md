@@ -1,4 +1,4 @@
-# UTN_Mobile_Robotics.md
+# Mobile Robotics Course: University of Technology Nuremberg
 
 
 ![](https://img.shields.io/github/stars/Wangzhaoze/UTN_Mobile_Robotics.svg) 
